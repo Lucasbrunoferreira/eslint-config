@@ -1,4 +1,6 @@
-# LucasBruno ESLint config
+# My ESLint config
+
+> Lucas Bruno
 
 ## Whats included?
 
