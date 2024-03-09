@@ -8,8 +8,6 @@ module.exports = {
     'standard',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
-    'plugin:prettier-plugin-tailwindcss',
-    'plugin:tailwindcss/recommended'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -46,6 +44,7 @@ module.exports = {
     'jsx-a11y/role-has-required-aria-props': 'warn',
     'jsx-a11y/role-supports-aria-props': 'warn',
     'react/no-unknown-property': 'error',
+    "@typescript-eslint/no-explicit-any": "off"
   },
   settings: {
     react: {

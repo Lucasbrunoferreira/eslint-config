@@ -25,7 +25,7 @@ Inside `.eslintrc.json`
 ```
 {
   "extends": [
-    "@bitgrow/eslint-config/next",
+    "@lucasbruno/eslint-config/next",
     "next/core-web-vitals"
   ]
 }
@@ -36,14 +36,14 @@ Inside `.eslintrc.json`
 Install dependencies:
 
 ```
-npm i -D eslint @bitgrow/eslint-config
+npm i -D eslint @lucasbruno/eslint-config
 ```
 
 Inside `.eslintrc.json`
 
 ```
 {
-  "extends": "@bitgrow/eslint-config/react"
+  "extends": "@lucasbruno/eslint-config/react"
 }
 ```
 
@@ -52,14 +52,14 @@ Inside `.eslintrc.json`
 Install dependencies:
 
 ```
-npm i -D eslint @bitgrow/eslint-config
+npm i -D eslint @lucasbruno/eslint-config
 ```
 
 Inside`.eslintrc.json`, if you have configs, delete all and set something this:
 
 ```
 {
-  "extends": "@bitgrow/eslint-config/node"
+  "extends": "@lucasbruno/eslint-config/node"
 }
 ```
 
