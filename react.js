@@ -53,7 +53,8 @@ module.exports = {
     'react/no-unknown-property': 'error',
     "@typescript-eslint/no-explicit-any": "off",
     "no-useless-constructor": "off",
-    "react-hooks/exhaustive-deps": "off"
+    "react-hooks/exhaustive-deps": "off",
+    "@typescript-eslint/no-non-null-assertion": "off"
   },
   settings: {
     react: {
