@@ -19,7 +19,8 @@ module.exports = {
   },
   plugins: [
     'jsx-a11y',
-    '@typescript-eslint'
+    '@typescript-eslint',
+    "react-hooks"
   ],
   rules: {
     'prettier/prettier': ["error", {

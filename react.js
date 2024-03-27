@@ -23,7 +23,8 @@ module.exports = {
   plugins: [
     'react',
     'jsx-a11y',
-    '@typescript-eslint'
+    '@typescript-eslint',
+    "react-hooks"
   ],
   rules: {
     "react/self-closing-comp": "error",
