@@ -24,7 +24,7 @@ module.exports = {
   ],
   rules: {
     'prettier/prettier': ["error", {
-      'printWidth': 120,
+      'printWidth': 90,
       'tabWidth': 2,
       'singleQuote': true,
       'trailingComma': 'all',
